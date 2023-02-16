@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    background-color: pink;
+    color: rgb(255, 0, 234);
+    width: 70%;
+    margin: auto;
+    padding-left: 30%;
+}
+
+.fundoBanner {
+    background-color: rgb(8, 8, 8);
+    padding-left: 5%;
+}
+
+.rodape {
+    background-color: rgb(89, 224, 89);
+}
+
+
+.perfil img {
+    width: 400px;
+    margin: auto;
+    padding-right: 100%;
+}
+
+.rodape ul {
+    display: inline-block;
+}
+
+.rodape li {
+    display: inline-block;
+}
+
+.perfil {
+    background-color: black;
+}
+
+.fundoBanner img {
+    width: 50px;
+}
+
+.rodape img {
+    width: 100px;
+}
+
+
+.rodape ul {
+    color: pink;
+}
