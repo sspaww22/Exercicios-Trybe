@@ -7,6 +7,11 @@
     <title>Portifolio</title>
 </head>
 <body>
+  <style>
+    .dark-mode {
+      filter: inverter(100%)
+    }
+  </style>
     
     <div class="banner">
         <div class="intro">
@@ -32,12 +37,25 @@
         </div>
       </div>
       <!-- Tentar colocar uma barra com qualidades trybe -->
-    <div style="background-color:white";>
+    <div style="background-color:rgb(31, 224, 5)";>
         <img src="./imagens/download.png"  alt=""
         width="100px">
+        <h1>Conhecimento</h1>
+        <h2>Pratica</h2>
+        <h3>Comunidade</h3>
 
     </div>
     
+  <script>
+    document.onkeypress = function(e) {
+      e = e || window.event
 
+      if (e.keyCode === 13) {
+        document.documentElement.classList.toogle("dark-mode")
+      }
+    }
+
+  // tentativa de colocar dark mode tirar duvida
+  </script>
 </body>
 </html>
